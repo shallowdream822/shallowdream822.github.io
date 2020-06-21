@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>米哈游-TECH OTAKUS SAVE THE WORLD</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<script src="jquery-1.7.2.min.js"></script>
+	<script type="text/javascript">
+		var index = 0;
+		//改变图片
+		function ChangeImg() {
+			index++;
+			var a = document.getElementsByClassName("img-slide");
+			if (index >= a.length) index = 0;
+			for (var i = 0; i < a.length; i++) {
+				a[i].style.display = 'none';
+			}
+			a[index].style.display = 'block';
+		}
+		//设置定时器，每隔2.5秒切换一张图片
+		setInterval(ChangeImg, 2500);
+	</script>
+</head>
+
+<body>
+	 <div class="top" id="navigate">
+	    <center> 
+		 <ul>
+			<li>
+				<a href="index.html">
+					<img  src="https://www.mihayo.com/images/logo.png"width="80" height="40"/>
+				</a>
+			</li>
+			<li><a href="page2.html">我的信息</a></li>
+	        <li><a href="page3.html">我的爱好</a></li>
+			<li><a href="page1.html">注册？</a></li>
+	     </ul>
+	     </center>      
+	 </div>
+	 
+
+<div class="self">
+				<img class="img-slide img1" src="https://www.mihayo.com/images/index-tion/1m.jpg" />
+				<img class="img-slide img2" src="https://www.mihayo.com/images/index-tion/2m.jpg" />
+				<img class="img-slide img3" src="https://www.mihayo.com/images/index-tion/3m.jpg" />
+			</div>
+
+	
+	<div class="zhuti">
+		<a href="#"style="background-image: url(https://imgo.qpb187.com/img2020/2/27/15/2020022735790825.jpg);">
+			<div class="text">
+				我的信息
+			</div>
+		</a>
+		<a href="#"style="background-image: url(http://5b0988e595225.cdn.sohucs.com/images/20191016/eea1cd60f011459d8054cc75f66f4a3c.jpeg);">
+			
+			<div class="text">
+				我的爱好
+			</div>
+		</a>
+		<a href="page1.html"style="background-image: url(http://img.kuai8.com/article/image/201712/05/3ecbdc4201.jpg);">
+			
+			<div class="text">
+				来注册一手？
+			</div>
+		</a>
+	</div>
+	<div id="footer">
+		<img id="bg1" src="http://5b0988e595225.cdn.sohucs.com/images/20190214/7cad20427db6410db95df85e7cd7ff82.jpeg"/>
+		<div id="bg2">
+			<p>欢迎光临我的小站 这里是页脚 什么也没有</p>
+			<p>我是来凑字数的</p>
+			<p>诶巧了我也是</p>
+		</div>
+	</div>
+</body>
+
+
+</html>

@@ -1,0 +1,32 @@
+.mes{
+	width: 1000px;
+	height: 350px;
+	margin-left: 270px;
+
+}
+.img{
+	width: 50%;
+	height: 100%;
+	float: left;
+	display: inline;
+}
+.cont{
+	display: inline-block;
+	background-color: antiquewhite;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.biaoge{
+	display: inline-block;
+	background-color: antiquewhite;
+
+	float: left;
+	padding-top: 20px;
+	font-size: 20px;
+	margin-left: 80px;
+}
+h1{
+	margin-top: 40px;
+	margin-left: 150px;
+}

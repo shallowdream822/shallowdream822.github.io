@@ -1,0 +1,39 @@
+.mes{
+	width: 1000px;
+	height: 350px;
+	margin-left: 270px;
+
+}
+.img{
+	width: 60%;
+	height: 100%;
+	float: left;
+	display: inline;
+}
+.cont{
+	display: inline-block;
+	background-color: antiquewhite;
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+.biaoge{
+	display: inline-block;
+	background-color: antiquewhite;
+
+	float: left;
+	padding-top: 40px;
+	font-size: 20px;
+	margin-left: 80px;
+}
+
+td {
+	height: 40px;
+    text-align:center;
+ }
+ h1,p{
+	 font-size: 20px;
+	 margin-left: 40px;
+	 margin-top: 20px;
+	 position: relative;
+ }
